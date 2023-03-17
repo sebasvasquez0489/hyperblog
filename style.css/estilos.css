@@ -1,5 +1,5 @@
 body {
-    background: rgb(0, 0, 0);
+    background: rgb(91, 91, 91);
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: "Courier";
@@ -8,12 +8,19 @@ body {
     padding: 0;
 }
 #cabecera {
-    background: #16FF00;
+    background: #064800;
     box-shadow: 0px 2px 20px rgba(255, 255, 255, 0.5);
     color: white;
     font-weight: bold;
+    font-size: 20px;
     margin: 0;
     padding: 0.5em;
+}
+img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+
 }
 #cabecera #tagline {
     padding: 0 0 0 1em;
@@ -21,10 +28,11 @@ body {
     font-size: 0.8em;
 }
 #container {
+    background: #000000;
     width: 70%;
     padding: 1em;
     text-align: left;
-    border: 2px solid#256;
+    border: 5px solid#064800;
     margin: 0 auto;
     margin-top: 20px;
 }
